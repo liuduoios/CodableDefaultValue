@@ -34,6 +34,8 @@
 		86FE666828BCB1800095B92C /* IntTypeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86FE666728BCB1800095B92C /* IntTypeTests.swift */; };
 		86FE666A28BCB18A0095B92C /* EnumTypeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86FE666928BCB18A0095B92C /* EnumTypeTests.swift */; };
 		86FE666C28BCB1950095B92C /* BoolTypeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86FE666B28BCB1950095B92C /* BoolTypeTests.swift */; };
+		86FE668428BCC3A00095B92C /* DefaultUInt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86FE668328BCC3A00095B92C /* DefaultUInt.swift */; };
+		86FE668628BCC3D20095B92C /* UIntTypeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86FE668528BCC3D20095B92C /* UIntTypeTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +79,8 @@
 		86FE666728BCB1800095B92C /* IntTypeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntTypeTests.swift; sourceTree = "<group>"; };
 		86FE666928BCB18A0095B92C /* EnumTypeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumTypeTests.swift; sourceTree = "<group>"; };
 		86FE666B28BCB1950095B92C /* BoolTypeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoolTypeTests.swift; sourceTree = "<group>"; };
+		86FE668328BCC3A00095B92C /* DefaultUInt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultUInt.swift; sourceTree = "<group>"; };
+		86FE668528BCC3D20095B92C /* UIntTypeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIntTypeTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +140,7 @@
 			children = (
 				86FE666328BCB0D40095B92C /* StringTypeTests.swift */,
 				86FE666728BCB1800095B92C /* IntTypeTests.swift */,
+				86FE668528BCC3D20095B92C /* UIntTypeTests.swift */,
 				86FE666B28BCB1950095B92C /* BoolTypeTests.swift */,
 				86FE666928BCB18A0095B92C /* EnumTypeTests.swift */,
 				8668912928BBA07C00863827 /* DateTypeTests.swift */,
@@ -156,6 +161,7 @@
 				86FE664428BCA91C0095B92C /* EmptyInitializable.swift */,
 				8668913728BBB03900863827 /* DefaultString.swift */,
 				8668913928BBB0C000863827 /* DefaultInt.swift */,
+				86FE668328BCC3A00095B92C /* DefaultUInt.swift */,
 				86FE663A28BC8F400095B92C /* DefaultBool.swift */,
 				8668913B28BBB2B200863827 /* DefaultIntEnum.swift */,
 				86FE663C28BC9B3E0095B92C /* DefaultArray.swift */,
@@ -276,6 +282,7 @@
 				86647B9E28BB9D1B00448A39 /* AppDelegate.swift in Sources */,
 				8668913628BBAE7E00863827 /* UserInfo.swift in Sources */,
 				86FE663D28BC9B3E0095B92C /* DefaultArray.swift in Sources */,
+				86FE668428BCC3A00095B92C /* DefaultUInt.swift in Sources */,
 				86FE663B28BC8F400095B92C /* DefaultBool.swift in Sources */,
 				86FE664528BCA91C0095B92C /* EmptyInitializable.swift in Sources */,
 				86FE663F28BC9B6A0095B92C /* DefaultDate.swift in Sources */,
@@ -296,6 +303,7 @@
 				8668912828BBA05800863827 /* ArrayTypeTests.swift in Sources */,
 				86FE666828BCB1800095B92C /* IntTypeTests.swift in Sources */,
 				86FE665E28BCAEAA0095B92C /* TheEncoder.swift in Sources */,
+				86FE668628BCC3D20095B92C /* UIntTypeTests.swift in Sources */,
 				8668912A28BBA07C00863827 /* DateTypeTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
