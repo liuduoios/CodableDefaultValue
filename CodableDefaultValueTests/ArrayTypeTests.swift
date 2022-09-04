@@ -8,6 +8,10 @@
 import XCTest
 @testable import CodableDefaultValue
 
+struct BaseTypeArray: Codable {
+    @DefaultArray var nums: [Int]
+}
+
 struct Info: Codable {
     var name: String
 }
@@ -17,6 +21,27 @@ struct TestArrayModel: Codable {
 }
 
 class ArrayTypeTests: XCTestCase {
+    
+    func testBaseTypeArray() throws {
+        let data = """
+            {
+                "nums": [1, 3, 4, 5, 6]
+            }
+            """.data(using: .utf8)!
+        let model = try TheDecoder.shared.decode(BaseTypeArray.self, from: data)
+        assert(model.nums.count == 5)
+        assert(model.nums[3] == 5)
+    }
+    
+    func testNoBaseTypeArray() throws {
+        let data = """
+            {
+            
+            }
+            """.data(using: .utf8)!
+        let model = try TheDecoder.shared.decode(BaseTypeArray.self, from: data)
+        assert(model.nums.count == 0)
+    }
     
     func testArray() throws {
         let data = """

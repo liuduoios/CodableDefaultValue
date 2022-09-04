@@ -11,11 +11,6 @@ import XCTest
 struct ObjectInfo: Codable, EmptyInitializable {
     @DefaultString var name: String
     @DefaultInt var age: Int
-    
-    init() {
-        name = ""
-        age = 0
-    }
 }
 
 struct TestObjectModel: Codable {
