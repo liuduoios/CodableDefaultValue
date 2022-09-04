@@ -1,12 +1,12 @@
 //
 //  DateTypeTests.swift
-//  HappyCodableTests
+//  CodableDefaultValueTests
 //
 //  Created by liuduo on 2022/8/28.
 //
 
 import XCTest
-@testable import HappyCodable
+@testable import CodableDefaultValue
 
 struct TestDateModel: Codable {
     @DefaultDate var birth: Date

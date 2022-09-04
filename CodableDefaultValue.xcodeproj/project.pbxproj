@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		865DE9BF28C444C900E92EB6 /* DefaultBaseType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865DE9BE28C444C900E92EB6 /* DefaultBaseType.swift */; };
 		86647B9E28BB9D1B00448A39 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86647B9D28BB9D1B00448A39 /* AppDelegate.swift */; };
 		86647BA228BB9D1B00448A39 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86647BA128BB9D1B00448A39 /* ViewController.swift */; };
 		86647BA528BB9D1B00448A39 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86647BA328BB9D1B00448A39 /* Main.storyboard */; };
@@ -49,6 +50,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		865DE9BE28C444C900E92EB6 /* DefaultBaseType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultBaseType.swift; sourceTree = "<group>"; };
 		86647B9A28BB9D1B00448A39 /* CodableDefaultValue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodableDefaultValue.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		86647B9D28BB9D1B00448A39 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		86647BA128BB9D1B00448A39 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -167,6 +169,7 @@
 				86FE663C28BC9B3E0095B92C /* DefaultArray.swift */,
 				86FE663E28BC9B6A0095B92C /* DefaultDate.swift */,
 				86FE664228BCA8470095B92C /* DefaultObject.swift */,
+				865DE9BE28C444C900E92EB6 /* DefaultBaseType.swift */,
 			);
 			path = CodableDefaultValue;
 			sourceTree = "<group>";
@@ -274,6 +277,7 @@
 			files = (
 				8668913828BBB03900863827 /* DefaultString.swift in Sources */,
 				8668913A28BBB0C000863827 /* DefaultInt.swift in Sources */,
+				865DE9BF28C444C900E92EB6 /* DefaultBaseType.swift in Sources */,
 				86647BA228BB9D1B00448A39 /* ViewController.swift in Sources */,
 				86FE664128BCA7680095B92C /* HasDefaultEnumValue.swift in Sources */,
 				8668913C28BBB2B200863827 /* DefaultIntEnum.swift in Sources */,
@@ -460,7 +464,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = HappyCodable/Info.plist;
+				INFOPLIST_FILE = CodableDefaultValue/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -471,7 +475,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = org.liuduoios.HappyCodable;
+				PRODUCT_BUNDLE_IDENTIFIER = org.liuduoios.CodableDefaultValue;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -487,7 +491,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = HappyCodable/Info.plist;
+				INFOPLIST_FILE = CodableDefaultValue/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -498,7 +502,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = org.liuduoios.HappyCodable;
+				PRODUCT_BUNDLE_IDENTIFIER = org.liuduoios.CodableDefaultValue;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -514,7 +518,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = org.liuduoios.HappyCodableTests;
+				PRODUCT_BUNDLE_IDENTIFIER = org.liuduoios.CodableDefaultValueTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -531,7 +535,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = org.liuduoios.HappyCodableTests;
+				PRODUCT_BUNDLE_IDENTIFIER = org.liuduoios.CodableDefaultValueTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;

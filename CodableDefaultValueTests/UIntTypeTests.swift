@@ -1,12 +1,12 @@
 //
 //  UIntTypeTests.swift
-//  HappyCodableTests
+//  CodableDefaultValueTests
 //
-//  Created by 刘铎 on 2022/8/29.
+//  Created by liuduo on 2022/8/29.
 //
 
 import XCTest
-import HappyCodable
+import CodableDefaultValue
 
 struct TestUIntModel: Codable {
     @DefaultUInt var userId: UInt

@@ -1,12 +1,12 @@
 //
 //  IntTypeTests.swift
-//  HappyCodableTests
+//  CodableDefaultValueTests
 //
 //  Created by liuduo on 2022/8/29.
 //
 
 import XCTest
-import HappyCodable
+import CodableDefaultValue
 
 struct TestIntModel: Codable {
     @DefaultInt var age: Int

@@ -1,12 +1,12 @@
 //
 //  StringTypeTests.swift
-//  HappyCodableTests
+//  CodableDefaultValueTests
 //
 //  Created by liuduo on 2022/8/29.
 //
 
 import XCTest
-import HappyCodable
+import CodableDefaultValue
 
 struct TestStringModel: Codable {
     @DefaultString var name: String

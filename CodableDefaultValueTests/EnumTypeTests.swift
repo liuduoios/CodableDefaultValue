@@ -1,12 +1,12 @@
 //
 //  EnumTypeTests.swift
-//  HappyCodableTests
+//  CodableDefaultValueTests
 //
 //  Created by liuduo on 2022/8/29.
 //
 
 import XCTest
-import HappyCodable
+import CodableDefaultValue
 
 enum Gender: Int, HasDefaultEnumValue {
     case man = 1
