@@ -11,6 +11,10 @@ import Foundation
 public struct DefaultArray<Value: Codable>: Codable {
     public var wrappedValue: [Value]
     
+    public init() {
+        wrappedValue = []
+    }
+    
     public init(wrappedValue: [Value]) {
         self.wrappedValue = wrappedValue
     }

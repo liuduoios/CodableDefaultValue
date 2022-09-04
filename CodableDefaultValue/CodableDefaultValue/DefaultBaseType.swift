@@ -11,6 +11,10 @@ import Foundation
 public struct DefaultBaseType<BaseType: Codable & HasDefaultValue>: Codable {
     public var wrappedValue: BaseType
     
+    public init() {
+        wrappedValue = BaseType.defaultValue
+    }
+    
     public init(wrappedValue: BaseType) {
         self.wrappedValue = wrappedValue
     }

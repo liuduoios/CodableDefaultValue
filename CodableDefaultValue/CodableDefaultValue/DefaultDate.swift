@@ -11,13 +11,17 @@ import Foundation
 public struct DefaultDate: Codable {
     public var wrappedValue: Date
     
+    public init() {
+        wrappedValue = Date.defaultValue
+    }
+    
     public init(wrappedValue: Date) {
         self.wrappedValue = wrappedValue
     }
     
     public init(from decoder: Decoder) throws {
         let container = try decoder.singleValueContainer()
-        wrappedValue = (try? container.decode(Date.self)) ?? Date(timeIntervalSinceReferenceDate: 0)
+        wrappedValue = (try? container.decode(Date.self)) ?? Date.defaultValue
     }
     
     public func encode(to encoder: Encoder) throws {
@@ -27,6 +31,10 @@ public struct DefaultDate: Codable {
 
 public extension KeyedDecodingContainer {
     func decode(_ type: DefaultDate.Type, forKey key: Key) throws -> DefaultDate {
-        try decodeIfPresent(type, forKey: key) ?? DefaultDate(wrappedValue: Date(timeIntervalSinceReferenceDate: 0))
+        try decodeIfPresent(type, forKey: key) ?? DefaultDate(wrappedValue: Date.defaultValue)
     }
+}
+
+extension Date: HasDefaultValue {
+    public static var defaultValue = Date(timeIntervalSinceReferenceDate: 0)
 }

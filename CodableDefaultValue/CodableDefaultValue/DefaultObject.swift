@@ -11,6 +11,10 @@ import Foundation
 public struct DefaultObject<ObjectType: Codable & EmptyInitializable>: Codable {
     public var wrappedValue: ObjectType
     
+    public init() {
+        wrappedValue = ObjectType()
+    }
+    
     public init(wrappedValue: ObjectType) {
         self.wrappedValue = wrappedValue
     }
