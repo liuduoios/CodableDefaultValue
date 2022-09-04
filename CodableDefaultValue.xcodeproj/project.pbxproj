@@ -49,14 +49,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		86647B9A28BB9D1B00448A39 /* HappyCodable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HappyCodable.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		86647B9A28BB9D1B00448A39 /* CodableDefaultValue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodableDefaultValue.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		86647B9D28BB9D1B00448A39 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		86647BA128BB9D1B00448A39 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		86647BA428BB9D1B00448A39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		86647BA628BB9D1D00448A39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		86647BA928BB9D1D00448A39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		86647BAB28BB9D1D00448A39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8668911328BB9D9000863827 /* HappyCodableTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HappyCodableTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8668911328BB9D9000863827 /* CodableDefaultValueTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodableDefaultValueTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8668911D28BB9DA300863827 /* HasDefaultValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HasDefaultValue.swift; sourceTree = "<group>"; };
 		8668912728BBA05800863827 /* ArrayTypeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayTypeTests.swift; sourceTree = "<group>"; };
 		8668912928BBA07C00863827 /* DateTypeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateTypeTests.swift; sourceTree = "<group>"; };
@@ -104,8 +104,8 @@
 		86647B9128BB9D1B00448A39 = {
 			isa = PBXGroup;
 			children = (
-				86647B9C28BB9D1B00448A39 /* HappyCodable */,
-				8668911428BB9D9000863827 /* HappyCodableTests */,
+				86647B9C28BB9D1B00448A39 /* CodableDefaultValue */,
+				8668911428BB9D9000863827 /* CodableDefaultValueTests */,
 				86647B9B28BB9D1B00448A39 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -113,16 +113,16 @@
 		86647B9B28BB9D1B00448A39 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				86647B9A28BB9D1B00448A39 /* HappyCodable.app */,
-				8668911328BB9D9000863827 /* HappyCodableTests.xctest */,
+				86647B9A28BB9D1B00448A39 /* CodableDefaultValue.app */,
+				8668911328BB9D9000863827 /* CodableDefaultValueTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		86647B9C28BB9D1B00448A39 /* HappyCodable */ = {
+		86647B9C28BB9D1B00448A39 /* CodableDefaultValue */ = {
 			isa = PBXGroup;
 			children = (
-				8668911C28BB9D9800863827 /* HappyCodable */,
+				8668911C28BB9D9800863827 /* CodableDefaultValue */,
 				86647B9D28BB9D1B00448A39 /* AppDelegate.swift */,
 				86647BA128BB9D1B00448A39 /* ViewController.swift */,
 				8668913328BBAB6600863827 /* User.swift */,
@@ -132,10 +132,10 @@
 				86647BA828BB9D1D00448A39 /* LaunchScreen.storyboard */,
 				86647BAB28BB9D1D00448A39 /* Info.plist */,
 			);
-			path = HappyCodable;
+			path = CodableDefaultValue;
 			sourceTree = "<group>";
 		};
-		8668911428BB9D9000863827 /* HappyCodableTests */ = {
+		8668911428BB9D9000863827 /* CodableDefaultValueTests */ = {
 			isa = PBXGroup;
 			children = (
 				86FE666328BCB0D40095B92C /* StringTypeTests.swift */,
@@ -150,10 +150,10 @@
 				86FE665D28BCAEAA0095B92C /* TheEncoder.swift */,
 				86FE665F28BCAEE80095B92C /* TheDateFormatter.swift */,
 			);
-			path = HappyCodableTests;
+			path = CodableDefaultValueTests;
 			sourceTree = "<group>";
 		};
-		8668911C28BB9D9800863827 /* HappyCodable */ = {
+		8668911C28BB9D9800863827 /* CodableDefaultValue */ = {
 			isa = PBXGroup;
 			children = (
 				8668911D28BB9DA300863827 /* HasDefaultValue.swift */,
@@ -168,15 +168,15 @@
 				86FE663E28BC9B6A0095B92C /* DefaultDate.swift */,
 				86FE664228BCA8470095B92C /* DefaultObject.swift */,
 			);
-			path = HappyCodable;
+			path = CodableDefaultValue;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		86647B9928BB9D1B00448A39 /* HappyCodable */ = {
+		86647B9928BB9D1B00448A39 /* CodableDefaultValue */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 86647BAE28BB9D1D00448A39 /* Build configuration list for PBXNativeTarget "HappyCodable" */;
+			buildConfigurationList = 86647BAE28BB9D1D00448A39 /* Build configuration list for PBXNativeTarget "CodableDefaultValue" */;
 			buildPhases = (
 				86647B9628BB9D1B00448A39 /* Sources */,
 				86647B9728BB9D1B00448A39 /* Frameworks */,
@@ -186,14 +186,14 @@
 			);
 			dependencies = (
 			);
-			name = HappyCodable;
+			name = CodableDefaultValue;
 			productName = HappyCodable;
-			productReference = 86647B9A28BB9D1B00448A39 /* HappyCodable.app */;
+			productReference = 86647B9A28BB9D1B00448A39 /* CodableDefaultValue.app */;
 			productType = "com.apple.product-type.application";
 		};
-		8668911228BB9D9000863827 /* HappyCodableTests */ = {
+		8668911228BB9D9000863827 /* CodableDefaultValueTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8668911928BB9D9000863827 /* Build configuration list for PBXNativeTarget "HappyCodableTests" */;
+			buildConfigurationList = 8668911928BB9D9000863827 /* Build configuration list for PBXNativeTarget "CodableDefaultValueTests" */;
 			buildPhases = (
 				8668910F28BB9D9000863827 /* Sources */,
 				8668911028BB9D9000863827 /* Frameworks */,
@@ -204,9 +204,9 @@
 			dependencies = (
 				8668911828BB9D9000863827 /* PBXTargetDependency */,
 			);
-			name = HappyCodableTests;
+			name = CodableDefaultValueTests;
 			productName = HappyCodableTests;
-			productReference = 8668911328BB9D9000863827 /* HappyCodableTests.xctest */;
+			productReference = 8668911328BB9D9000863827 /* CodableDefaultValueTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -228,7 +228,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 86647B9528BB9D1B00448A39 /* Build configuration list for PBXProject "HappyCodable" */;
+			buildConfigurationList = 86647B9528BB9D1B00448A39 /* Build configuration list for PBXProject "CodableDefaultValue" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -241,8 +241,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				86647B9928BB9D1B00448A39 /* HappyCodable */,
-				8668911228BB9D9000863827 /* HappyCodableTests */,
+				86647B9928BB9D1B00448A39 /* CodableDefaultValue */,
+				8668911228BB9D9000863827 /* CodableDefaultValueTests */,
 			);
 		};
 /* End PBXProject section */
@@ -313,7 +313,7 @@
 /* Begin PBXTargetDependency section */
 		8668911828BB9D9000863827 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 86647B9928BB9D1B00448A39 /* HappyCodable */;
+			target = 86647B9928BB9D1B00448A39 /* CodableDefaultValue */;
 			targetProxy = 8668911728BB9D9000863827 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -519,7 +519,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HappyCodable.app/HappyCodable";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CodableDefaultValue.app/CodableDefaultValue";
 			};
 			name = Debug;
 		};
@@ -536,14 +536,14 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HappyCodable.app/HappyCodable";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CodableDefaultValue.app/CodableDefaultValue";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		86647B9528BB9D1B00448A39 /* Build configuration list for PBXProject "HappyCodable" */ = {
+		86647B9528BB9D1B00448A39 /* Build configuration list for PBXProject "CodableDefaultValue" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				86647BAC28BB9D1D00448A39 /* Debug */,
@@ -552,7 +552,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		86647BAE28BB9D1D00448A39 /* Build configuration list for PBXNativeTarget "HappyCodable" */ = {
+		86647BAE28BB9D1D00448A39 /* Build configuration list for PBXNativeTarget "CodableDefaultValue" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				86647BAF28BB9D1D00448A39 /* Debug */,
@@ -561,7 +561,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8668911928BB9D9000863827 /* Build configuration list for PBXNativeTarget "HappyCodableTests" */ = {
+		8668911928BB9D9000863827 /* Build configuration list for PBXNativeTarget "CodableDefaultValueTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8668911A28BB9D9000863827 /* Debug */,
