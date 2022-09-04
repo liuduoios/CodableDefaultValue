@@ -80,7 +80,9 @@ struct User {
 #### 基础类型数组
 
 ```swift
-@DefaultArray var nums: [Int]
+struct User {
+    @DefaultArray var nums: [Int]
+}
 ```
 
 #### 对象数组
@@ -90,6 +92,8 @@ struct Info: Codable {
     var name: String
 }
 
-@DefaultArray var infos: [Info]
+struct User {
+    @DefaultArray var infos: [Info]
+}
 ```
 
