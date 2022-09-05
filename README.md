@@ -11,6 +11,8 @@
 * Bool
 * Int
 * UInt
+* Float
+* Double
 * String
 * Date
 * 枚举
@@ -36,6 +38,10 @@ struct User {
     @DefaultInt var age: Int
 
     @DefaultUInt var id: UInt
+
+    @DefaultFloat var f: Float
+
+    @DefaultDouble var d: Double
 
     @DefaultString var name: String
 
