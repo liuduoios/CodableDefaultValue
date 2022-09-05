@@ -22,6 +22,10 @@
 		8668913828BBB03900863827 /* DefaultString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8668913728BBB03900863827 /* DefaultString.swift */; };
 		8668913A28BBB0C000863827 /* DefaultInt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8668913928BBB0C000863827 /* DefaultInt.swift */; };
 		8668913C28BBB2B200863827 /* DefaultIntEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8668913B28BBB2B200863827 /* DefaultIntEnum.swift */; };
+		86BB91BE28C5B53E005BB6F6 /* DefaultFloat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86BB91BD28C5B53E005BB6F6 /* DefaultFloat.swift */; };
+		86BB91C028C5B544005BB6F6 /* DefaultDouble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86BB91BF28C5B544005BB6F6 /* DefaultDouble.swift */; };
+		86BB91C228C5B5A0005BB6F6 /* FloatTypeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86BB91C128C5B5A0005BB6F6 /* FloatTypeTests.swift */; };
+		86BB91C428C5B5A6005BB6F6 /* DoubleTypeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86BB91C328C5B5A6005BB6F6 /* DoubleTypeTests.swift */; };
 		86FE663B28BC8F400095B92C /* DefaultBool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86FE663A28BC8F400095B92C /* DefaultBool.swift */; };
 		86FE663D28BC9B3E0095B92C /* DefaultArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86FE663C28BC9B3E0095B92C /* DefaultArray.swift */; };
 		86FE663F28BC9B6A0095B92C /* DefaultDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86FE663E28BC9B6A0095B92C /* DefaultDate.swift */; };
@@ -68,6 +72,10 @@
 		8668913728BBB03900863827 /* DefaultString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultString.swift; sourceTree = "<group>"; };
 		8668913928BBB0C000863827 /* DefaultInt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultInt.swift; sourceTree = "<group>"; };
 		8668913B28BBB2B200863827 /* DefaultIntEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultIntEnum.swift; sourceTree = "<group>"; };
+		86BB91BD28C5B53E005BB6F6 /* DefaultFloat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultFloat.swift; sourceTree = "<group>"; };
+		86BB91BF28C5B544005BB6F6 /* DefaultDouble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultDouble.swift; sourceTree = "<group>"; };
+		86BB91C128C5B5A0005BB6F6 /* FloatTypeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatTypeTests.swift; sourceTree = "<group>"; };
+		86BB91C328C5B5A6005BB6F6 /* DoubleTypeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleTypeTests.swift; sourceTree = "<group>"; };
 		86FE663A28BC8F400095B92C /* DefaultBool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultBool.swift; sourceTree = "<group>"; };
 		86FE663C28BC9B3E0095B92C /* DefaultArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultArray.swift; sourceTree = "<group>"; };
 		86FE663E28BC9B6A0095B92C /* DefaultDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultDate.swift; sourceTree = "<group>"; };
@@ -151,6 +159,8 @@
 				86FE665B28BCAE930095B92C /* TheDecoder.swift */,
 				86FE665D28BCAEAA0095B92C /* TheEncoder.swift */,
 				86FE665F28BCAEE80095B92C /* TheDateFormatter.swift */,
+				86BB91C128C5B5A0005BB6F6 /* FloatTypeTests.swift */,
+				86BB91C328C5B5A6005BB6F6 /* DoubleTypeTests.swift */,
 			);
 			path = CodableDefaultValueTests;
 			sourceTree = "<group>";
@@ -158,18 +168,20 @@
 		8668911C28BB9D9800863827 /* CodableDefaultValue */ = {
 			isa = PBXGroup;
 			children = (
-				8668911D28BB9DA300863827 /* HasDefaultValue.swift */,
-				86FE664028BCA7680095B92C /* HasDefaultEnumValue.swift */,
-				86FE664428BCA91C0095B92C /* EmptyInitializable.swift */,
-				8668913728BBB03900863827 /* DefaultString.swift */,
-				8668913928BBB0C000863827 /* DefaultInt.swift */,
-				86FE668328BCC3A00095B92C /* DefaultUInt.swift */,
-				86FE663A28BC8F400095B92C /* DefaultBool.swift */,
-				8668913B28BBB2B200863827 /* DefaultIntEnum.swift */,
 				86FE663C28BC9B3E0095B92C /* DefaultArray.swift */,
-				86FE663E28BC9B6A0095B92C /* DefaultDate.swift */,
-				86FE664228BCA8470095B92C /* DefaultObject.swift */,
 				865DE9BE28C444C900E92EB6 /* DefaultBaseType.swift */,
+				86FE663A28BC8F400095B92C /* DefaultBool.swift */,
+				86FE663E28BC9B6A0095B92C /* DefaultDate.swift */,
+				86BB91BF28C5B544005BB6F6 /* DefaultDouble.swift */,
+				86BB91BD28C5B53E005BB6F6 /* DefaultFloat.swift */,
+				8668913928BBB0C000863827 /* DefaultInt.swift */,
+				8668913B28BBB2B200863827 /* DefaultIntEnum.swift */,
+				86FE664228BCA8470095B92C /* DefaultObject.swift */,
+				8668913728BBB03900863827 /* DefaultString.swift */,
+				86FE668328BCC3A00095B92C /* DefaultUInt.swift */,
+				86FE664428BCA91C0095B92C /* EmptyInitializable.swift */,
+				86FE664028BCA7680095B92C /* HasDefaultEnumValue.swift */,
+				8668911D28BB9DA300863827 /* HasDefaultValue.swift */,
 			);
 			path = CodableDefaultValue;
 			sourceTree = "<group>";
@@ -277,6 +289,7 @@
 			files = (
 				8668913828BBB03900863827 /* DefaultString.swift in Sources */,
 				8668913A28BBB0C000863827 /* DefaultInt.swift in Sources */,
+				86BB91BE28C5B53E005BB6F6 /* DefaultFloat.swift in Sources */,
 				865DE9BF28C444C900E92EB6 /* DefaultBaseType.swift in Sources */,
 				86647BA228BB9D1B00448A39 /* ViewController.swift in Sources */,
 				86FE664128BCA7680095B92C /* HasDefaultEnumValue.swift in Sources */,
@@ -288,6 +301,7 @@
 				86FE663D28BC9B3E0095B92C /* DefaultArray.swift in Sources */,
 				86FE668428BCC3A00095B92C /* DefaultUInt.swift in Sources */,
 				86FE663B28BC8F400095B92C /* DefaultBool.swift in Sources */,
+				86BB91C028C5B544005BB6F6 /* DefaultDouble.swift in Sources */,
 				86FE664528BCA91C0095B92C /* EmptyInitializable.swift in Sources */,
 				86FE663F28BC9B6A0095B92C /* DefaultDate.swift in Sources */,
 				86FE664328BCA8470095B92C /* DefaultObject.swift in Sources */,
@@ -300,9 +314,11 @@
 			files = (
 				86FE666A28BCB18A0095B92C /* EnumTypeTests.swift in Sources */,
 				86FE666028BCAEE80095B92C /* TheDateFormatter.swift in Sources */,
+				86BB91C228C5B5A0005BB6F6 /* FloatTypeTests.swift in Sources */,
 				8668912C28BBA08500863827 /* ObjectTypeTests.swift in Sources */,
 				86FE666C28BCB1950095B92C /* BoolTypeTests.swift in Sources */,
 				86FE665C28BCAE930095B92C /* TheDecoder.swift in Sources */,
+				86BB91C428C5B5A6005BB6F6 /* DoubleTypeTests.swift in Sources */,
 				86FE666428BCB0D40095B92C /* StringTypeTests.swift in Sources */,
 				8668912828BBA05800863827 /* ArrayTypeTests.swift in Sources */,
 				86FE666828BCB1800095B92C /* IntTypeTests.swift in Sources */,
